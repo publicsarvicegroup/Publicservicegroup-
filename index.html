@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PUBLIC SERVICE GROUP - जनसेवा, जागरूकता और सामाजिक गतिविधियों का डिजिटल मंच">
+<title>PUBLIC SERVICE GROUP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#home">PUBLIC SERVICE GROUP</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navLinks">
+      <a href="#home">होम</a><a href="#about">हमारे बारे में</a><a href="#news">समाचार</a>
+      <a href="#gallery">गैलरी</a><a href="#team">टीम</a><a href="#contact">संपर्क</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="badge">जनसेवा • जागरूकता • विकास</span>
+      <h1>PUBLIC SERVICE GROUP</h1>
+      <p>समाज की आवाज़ को एक मंच पर लाने और जनहित की जानकारी साझा करने की एक पहल।</p>
+      <div class="buttons"><a class="btn primary" href="#about">हमारे बारे में</a><a class="btn dark" href="#contact">संपर्क करें</a></div>
+    </div>
+    <div class="logo-card"><div class="logo">PSG</div><h3>जनसेवा हमारा उद्देश्य</h3><p>सही जानकारी • पारदर्शिता • सामाजिक भागीदारी</p></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+<div class="container">
+<div class="title"><span>ABOUT US</span><h2>PUBLIC SERVICE GROUP के बारे में</h2></div>
+<div class="grid3">
+<div class="card"><h3>हमारा उद्देश्य</h3><p>जनहित से जुड़ी उपयोगी जानकारी, सामाजिक गतिविधियों और जागरूकता को लोगों तक सरल भाषा में पहुँचाना।</p></div>
+<div class="card"><h3>हमारी सोच</h3><p>सकारात्मक सोच, जिम्मेदार नागरिक भागीदारी और समाज के विकास में सहयोग करना।</p></div>
+<div class="card"><h3>हमारा मंच</h3><p>स्थानीय समाचार, कार्यक्रम, फोटो, घोषणाएँ और जनसेवा से संबंधित जानकारी के लिए डिजिटल मंच।</p></div>
+</div></div>
+</section>
+
+<section id="news" class="section light">
+<div class="container"><div class="title"><span>LATEST</span><h2>ताज़ा समाचार</h2></div>
+<div class="grid3">
+<div class="card news"><b>📰</b><div><h3>स्थानीय सूचना</h3><p>यहाँ नई सूचना या स्थानीय समाचार प्रकाशित किया जा सकता है।</p></div></div>
+<div class="card news"><b>📢</b><div><h3>महत्वपूर्ण घोषणा</h3><p>जनहित से जुड़ी महत्वपूर्ण घोषणाएँ यहाँ प्रदर्शित करें।</p></div></div>
+<div class="card news"><b>🤝</b><div><h3>सामाजिक कार्यक्रम</h3><p>कार्यक्रम, अभियान और सामाजिक गतिविधियों की जानकारी यहाँ जोड़ें।</p></div></div>
+</div></div>
+</section>
+
+<section id="gallery" class="section">
+<div class="container"><div class="title"><span>GALLERY</span><h2>फोटो गैलरी</h2></div>
+<div class="gallery">
+<div class="gallery-item">📷<span>कार्यक्रम फोटो</span></div>
+<div class="gallery-item">🌳<span>सामाजिक अभियान</span></div>
+<div class="gallery-item">🤝<span>जनसेवा गतिविधि</span></div>
+<div class="gallery-item">🏘️<span>स्थानीय कार्यक्रम</span></div>
+</div>
+<p class="hint">अपनी तस्वीरें जोड़ने के लिए इन boxes को बाद में images से बदला जा सकता है।</p>
+</div></section>
+
+<section id="team" class="section light">
+<div class="container"><div class="title"><span>OUR TEAM</span><h2>हमारी टीम</h2></div>
+<div class="grid3">
+<div class="card person"><div class="avatar">S</div><h3>Shivam Kumar</h3><p>Founder / Coordinator</p></div>
+<div class="card person"><div class="avatar">P</div><h3>Public Service Team</h3><p>Social Service</p></div>
+<div class="card person"><div class="avatar">G</div><h3>Community Members</h3><p>Public Support</p></div>
+</div></div>
+</section>
+
+<section id="contact" class="section">
+<div class="container"><div class="title"><span>CONTACT</span><h2>संपर्क करें</h2></div>
+<div class="contact-grid">
+<div class="card"><h3>PUBLIC SERVICE GROUP</h3><p>आप अपने संपर्क विवरण यहाँ अपडेट कर सकते हैं।</p><p>📍 बिहार, भारत</p><p>📞 मोबाइल: अपना नंबर जोड़ें</p><p>✉️ Email: अपना ईमेल जोड़ें</p></div>
+<form class="card form" id="contactForm">
+<input id="name" placeholder="आपका नाम" required><input id="phone" placeholder="मोबाइल नंबर">
+<textarea id="message" rows="5" placeholder="आपका संदेश" required></textarea>
+<button class="btn primary" type="submit">संदेश भेजें</button><small id="formMsg"></small>
+</form>
+</div></div></section>
+</main>
+
+<footer><div class="container footer"><strong>PUBLIC SERVICE GROUP</strong><span>© <span id="year"></span> All Rights Reserved.</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
